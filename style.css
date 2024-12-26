@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.container {
+    max-width: 800px; /* Limit the container width */
+    margin: auto; /* Center the container */
+    background-color: #fff; /* White background for the container */
+    padding: 20px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove spacing between cells */
+    margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+    padding: 12px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ddd; /* Add border for both header and cell */
+}
+
+th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra stripes for even rows */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    text-align: center; /* Center the heading */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    margin-bottom: 20px; /* Space below the form */
+}
+
+label {
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px; /* Space between inputs */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.link-container {
+    text-align: center; /* Center the link */
+    margin-top: 20px; /* Space above the link */
+}
+
+.link-container a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+    font-weight: bold;
+}
+
+.link-container a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.hidden {
+    display: none; /* Hide the form message */
+}
+
+
+
+
+
+
+
